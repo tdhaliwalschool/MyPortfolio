@@ -11,9 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <style>
-        h2 {
+        /* Remove the navbar's default margin-bottom and rounded borders */
+
+         h2 {
             color: #4aaaa5;
-        }
+            }
+
+        /* #navbar {
+            text-align: right;
+            color: black;
+            padding: 5%;
+        } */
 
         .img {
             height: 200px;
@@ -48,6 +56,7 @@
             padding: 1%;
         }
 
+        /* Add a gray background color and some padding to the footer */
 
         #label {
             position: absolute;
@@ -64,6 +73,7 @@
         }
 
         body {
+            /* background-image: url("dark-grey-terrazzo.png"); */
             background-image: url("marble.jpeg");
             padding: 5%;
 
@@ -92,16 +102,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html"> Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                        <a class="nav-link" href="index.html"> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
             </ul>
         </div>
     </nav>
@@ -122,35 +132,104 @@
                     <div class="container-fluid">
 
                         <br>
-                        <h2>About Me</h2>
+                        <h2>My Portfolio</h2>
                         <hr>
 
                         <div class="row">
                             <div class="d-flex justify-content-center">
-                                <div class="col">
+                                <div class="col-lg-6  col-md-4 col-sm-4 pic">
+                                    <div class="card h-100">
+                                        <a href="PLACEHOLD#">
+                                            <img class="card-img-top" src="drag.jpg" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                <a href="#" class="title">Project One</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
 
-
-                                    <img src="assets/me.jpg" class="auth-image" alt="Your Name">
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis,
-                                        ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius
-                                        facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum
-                                        bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-                                    <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium
-                                        odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-                                    <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet
-                                        egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient
-                                        montes, nascetur ridiculus mus.</p>
-
+                                <div class="col-lg-6  col-md-4 col-sm-4 pic">
+                                    <div class="card h-100">
+                                        <a href="PLACEHOLD#">
+                                            <img class="card-img-top" src="drag.jpg" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                <a href="#" class="title">Project One</a>
+                                            </h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <div class="col-lg-6  col-md-4 col-sm-4 pic">
+                                    <div class="card h-100">
+                                        <a href="PLACEHOLD#">
+                                            <img class="card-img-top" src="drag.jpg" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                <a href="#" class="title">Project One</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6  col-md-4 col-sm-4 pic">
+                                    <div class="card h-100">
+                                        <a href="PLACEHOLD#">
+                                            <img class="card-img-top" src="drag.jpg" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                <a href="#" class="title">Project One</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="d-flex justify-content-center">
+                                <div class="col-lg-6 col-md-4 col-sm-4 pic">
+                                    <div class="card h-100">
+                                        <a href="PLACEHOLD#">
+                                            <img class="card-img-top" src="drag.jpg" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                <a href="#" class="title">Project One</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6  col-md-4 col-sm-4">
+                                    <div class="card h-100">
+                                        <a href="PLACEHOLD#">
+                                            <img class="card-img-top" src="drag.jpg" alt="">
+                                        </a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                                <a href="#" class="title">Project One</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
 
                     </div>
+
                 </div>
+
                 <div class="p-2 flex-fill"></div>
             </div>
         </div>
@@ -163,13 +242,13 @@
             Copyright &copy;
         </div>
     </footer>
-
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </body>
 
